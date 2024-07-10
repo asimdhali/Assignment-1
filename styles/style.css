@@ -72,6 +72,10 @@ body{
     color: white;
   }
 
+.banner-elements button:hover{
+    cursor: pointer;
+}
+
 /* ======= WHY SECTION STARTS ======== */
 .why-container {
     border-radius: 20px;

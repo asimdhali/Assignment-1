@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <p style="text-align: center;">Perfect View 1920px display</p>
+        <p style="text-align: center; background-color: rgba(255, 228, 196, 0.486); padding: 10px;">Perfect View 1920px display</p>
     </header>
     <!-- ========== BANNER SECTION STARTS ========= -->
     <section class="banner-container">
@@ -17,7 +17,7 @@
     
             <h1>"In the near future, I hope to become a <br> <span>Developer.</span>"</h1>
             <p>I'm excited to learn new programming languages and work on innovative projects that can make a positive <br> impact on people's lives. I look forward to collaborating with talented teams and continuously improving <br> my skills to stay at the forefront of technology</p>
-            <button>Contact With Me</button>
+            <button onclick="scrollToFooter()">Contact With Me</button>
         </div>
 
         <!-- <a href="#"><button>Contact With Me</button></a> -->
@@ -146,7 +146,7 @@
     </section>
     <!-- ========== SUPPORT SECTION ENDS ========== -->
 
-    <section class="footer">
+    <section class="footer" id="footer">
         <div class="footer-container">
             <h4>Connect with me on social media to explore <br> my portfolio, achievements, and vision for the future.</h4>
             <div class="social-links">
@@ -156,5 +156,11 @@
             </div>
         </div>
     </section>
+
+    <script>
+        function scrollToFooter() {
+            document.getElementById("footer").scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
 </body>
 </html>
