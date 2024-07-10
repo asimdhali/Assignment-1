@@ -213,3 +213,86 @@ body{
     max-width: 1482px;
     margin: 0 auto;
 }
+
+.current-target-head h1 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.current-target-head p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: justify;
+    opacity: 0.7;
+}
+
+.cur-tgt-card-container{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.card-elm{
+    padding: 40px;
+}
+
+.card-elm-1 {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.card-elm-2 {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.card-elm-3 {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.cur-tgt-card-container .card-icon{
+    margin-bottom: 24px;
+}
+
+.cur-tgt-card-container h1 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.cur-tgt-card-container p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: justify;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+
+.cur-tgt-card-container button {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    border: none;
+    background-color: transparent;
+}
