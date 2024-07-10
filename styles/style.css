@@ -37,7 +37,6 @@ body{
 
 .banner-elements h1 {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 48px;
     font-weight: 800;
     line-height: 68px;
@@ -162,7 +161,6 @@ body{
 .inspiration-container{
     max-width: 1482px;
     margin: 0 auto;
-    /* margin-top: 0px; */
 }
 
 .insp-elements{
@@ -197,7 +195,6 @@ body{
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
-    /* text-align: center; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -207,9 +204,12 @@ body{
 
 .insp-video-content{
     width: 1398px;
-    /* width: 534px; */
     height: 720px;
     border-radius: 16px;
-    /* padding: 32px; */
-    box-shadow: 0 0 0 32px #fff;
+}
+
+/* ========== CURRENT TARGET STYLES STARTS ========== */
+.current-target-container{
+    max-width: 1482px;
+    margin: 0 auto;
 }
