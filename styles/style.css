@@ -156,6 +156,11 @@ body{
     border-radius: 8px;
 }
 
+.why-container button:hover{
+    cursor: pointer;
+    border: 2px solid gainsboro;
+}
+
 .why-container .why-img2{
     scale: 1.2;
 }
@@ -303,6 +308,11 @@ body{
     background-color: transparent;
 }
 
+.cur-tgt-card-container button:hover{
+    cursor: pointer;
+    color: red;
+}
+
 /* =========== SUPPORT STYLES STARTS =========== */
 .support-container {
     max-width: 1482px;
@@ -400,4 +410,9 @@ body{
 .footer-container .social-links{
     display: flex;
     gap: 25px;
+}
+
+.footer-container .social-links a:hover{
+    scale: 1.2;
+    transition: all 300ms ease;
 }
