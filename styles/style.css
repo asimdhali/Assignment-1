@@ -151,13 +151,65 @@ body{
     border-radius: 8px;
 }
 
-.why-container .why-img1{
-    /* scale: 1.2; */
-}
-
 .why-container .why-img2{
     scale: 1.2;
 }
 .why-container .why-img3{
     scale: 1.2;
+}
+
+/* ========= INSPIRATION SECTION STYLES STARTS ========== */
+.inspiration-container{
+    max-width: 1482px;
+    margin: 0 auto;
+    /* margin-top: 0px; */
+}
+
+.insp-elements{
+    padding: 80px 97px;
+}
+
+.insp-head{
+    margin-bottom: 24px;
+}
+
+.insp-head h1 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.insp-head p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: justify;
+}
+
+.insp-video-container {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 32px;
+}
+
+.insp-video-content{
+    width: 1398px;
+    /* width: 534px; */
+    height: 720px;
+    border-radius: 16px;
+    /* padding: 32px; */
+    box-shadow: 0 0 0 32px #fff;
 }
